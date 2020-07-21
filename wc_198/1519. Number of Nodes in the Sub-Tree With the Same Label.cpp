@@ -2,11 +2,6 @@
     link: https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/
 */
 
-#include <vector>
-#include <unordered_map>
-#include <iostream>
-using namespace std;
-
 class Solution {
 public:
     vector<int> countSubTrees(int n, vector<vector<int>>& edges, string labels) {

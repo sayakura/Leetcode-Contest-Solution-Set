@@ -1,11 +1,5 @@
 // https://leetcode.com/problems/longest-absolute-file-path/
 
-#include <iostream>
-#include <vector>
-#include <sstream> 
-#include <stack>
-using namespace std;
-
 class Solution {
 public:
     int countLevel(string token) {
