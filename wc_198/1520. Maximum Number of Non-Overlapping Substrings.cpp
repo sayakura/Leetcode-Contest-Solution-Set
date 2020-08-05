@@ -11,8 +11,7 @@ public:
         }
         vector<string> res;
         int pre = -1;
-
-        for (int i = 0; i < s.size(); i++) {
+        for (int i = 0; i < s.size(); i++) { 
             if (i != l[s[i] - 'a']) continue ; 
             int right = check(i, l, r, s);
             if (right == -1) continue ;
